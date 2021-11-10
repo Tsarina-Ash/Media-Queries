@@ -1,0 +1,152 @@
+[class^="box"] {
+  color:white;
+  font-size: 20px;
+  text-shadow:4px 4px 0 rgba(0,0,0,0.1);
+  padding:10px;
+  height: 10vw;
+}
+
+/* Boxes */
+
+.box0 { 
+    background:#16a085; 
+    width : 95vw;
+    border-bottom: solid 3px;
+    border-right: solid 3px;
+}
+.box1 { 
+    background:#1abc9c; 
+    flex-basis: 33.33%; 
+    border-bottom: solid 3px;
+    border-top: solid 3px;
+    border-left: solid 3px;
+    border-right: solid 3px;
+ }
+.box2 { 
+    background:#3498db; 
+    flex-basis: 33.33%; 
+    border-bottom: solid 3px;
+    border-left: solid 3px;
+    border-right: solid 3px;
+}
+.box3 { 
+    background:#9b59b6; 
+    flex-basis: 33.33%; 
+    border-bottom: solid 3px;
+    border-right: solid 3px;
+}
+.box4 { 
+    background:#34495e; 
+    flex-basis: 50%; 
+    border-bottom: solid 3px;
+    border-left: solid 3px;
+    border-right: solid 3px;
+}
+.box5 { 
+    background:#f1c40f; 
+    flex-basis: 50%; 
+    border-bottom: solid 3px;
+    border-right: solid 3px;
+}
+.box6 { 
+    background:#e67e22; 
+    flex-basis: 25%;  
+    border-bottom: solid 3px;
+    border-right: solid 3px;
+}
+.box7 { 
+    background:#e74c3c; 
+    flex-basis: 25%; 
+    border-bottom: solid 3px;
+    border-right: solid 3px;
+}
+.box8 { 
+    background:#bdc3c7; 
+    flex-basis: 25%; 
+    border-bottom: solid 3px;
+    border-left: solid 3px;
+    border-right: solid 3px;
+}
+.box9 { 
+    background:#2ecc71; 
+    flex-basis: 25%; 
+    border-bottom: solid 3px;
+    border-right: solid 3px;
+}
+/* Flexbox */
+
+.flex-container {
+    display: flex;
+    border:5px solid goldenrod;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* Unique Effects For Screen Sizes */
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: orange;
+        color:olivedrab;
+    }
+    h4 {
+        color:olivedrab;
+    }
+    h2 {
+        color:olivedrab;
+    }
+    h3 {
+        color:olivedrab;
+    }
+    p {
+        color:olivedrab;
+        font-size: 5px;
+    }   
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+    body {
+        background-color: red;
+        color:yellow;
+    }
+    h4 {
+        color:yellow;
+    }
+    h2 {
+        color:yellow;
+    }
+    h3 {
+        color:yellow;
+    }
+    p {
+        color:yellow;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    body {
+        background-color: blueviolet;
+        color:tan;
+    }
+    h4 {
+        color:tan;
+    }
+    h2 {
+        color:tan;
+    }
+    h3 {
+        color:tan;
+    }
+    p {
+        color:tan;
+    }
+}
+
